@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="text_size_title">23sp</dimen>
+    <dimen name="text_size_temp">56sp</dimen>
+    <dimen name="image_size_detail">112dp</dimen>
+    <dimen name="padding">3dp</dimen>
+    <dimen name="text_size_data">17sp</dimen>
+    <dimen name="image_size_item">50dp</dimen>
+</resources>

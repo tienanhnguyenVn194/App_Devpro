@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">WeatherPlus</string>
+    <string name="celsius">°C</string>
+    <string name="detail">Detail:</string>
+    <string name="pressure">Pressure:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="cloudiness">Cloudiness:</string>
+    <string name="wind">Wind:</string>
+    <string name="sunrise">Sunrise:</string>
+    <string name="sunset">Sunset:</string>
+    <string name="clear_sky">Clear sky</string>
+    <string name="ex_hour">12:00</string>
+    <string name="last_update">Last Update:</string>
+    <string name="percent">%</string>
+    <string name="hPa">hPa</string>
+
+    /Wind Type
+    <string name="wind_speed_ms">m/s</string>
+    <string name="calm">Calm</string>
+    <string name="light_air">Light air</string>
+    <string name="light_breeze">Light breeze</string>
+    <string name="gentle_breeze">Gentle breeze</string>
+    <string name="moderate_breeze">Moderate breeze</string>
+    <string name="fresh_breeze">Fresh breeze</string>
+    <string name="strong_breeze">Strong breeze</string>
+    <string name="high_wind">High wind</string>
+    <string name="gale">Gale</string>
+    <string name="strong_gale">Strong gale</string>
+    <string name="storm">Storm</string>
+    <string name="violent_storm">Violent storm</string>
+    <string name="hurricane">Hurricane</string>
+
+    //Wind Direction
+    <string name="NNE">North-NorthEast</string>
+    <string name="NE">North East</string>
+    <string name="ENE">East-NorthEast</string>
+    <string name="E">East</string>
+    <string name="ESE">East-SouthEast</string>
+    <string name="SE">South East</string>
+    <string name="SSE">South-SouthEast</string>
+    <string name="S">South</string>
+    <string name="SSW">South-SouthWest</string>
+    <string name="SW">South West</string>
+    <string name="WSW">West-SouthWest</string>
+    <string name="W">West</string>
+    <string name="WNW">West-NorthWest</string>
+    <string name="NW">North West</string>
+    <string name="NNW">North-North West</string>
+    <string name="N">North</string>
+
+    <string name="search">Search</string>
+    <string name="time_just_finished">Just Finished</string>
+    <string name="time_minutes_ago">minutes ago</string>
+    <string name="time_hours_ago">hours ago</string>
+    <string name="time_days_ago">days ago</string>
+    <string name="toast_connected">Connected to service</string>
+    <string name="toast_no_connection">No Internet Connection</string>
+    <string name="toast_gps">Gps is not Enabled</string>
+    <string name="toast_load_data">Can not Load data</string>
+
+    <string name="des200">Thunderstorm with light rain</string>
+    <string name="des201">Thunderstorm with Rain</string>
+    <string name="des202">Thunderstorm with heavy rain</string>
+    <string name="des210">Light thunderstorm</string>
+    <string name="des211">Thunderstorm</string>
+    <string name="des212">Heavy thunderstorm</string>
+    <string name="des221">Ragged thunderstorm</string>
+    <string name="des230">Thunderstorm with light drizzle</string>
+    <string name="des231">Thunderstorm with drizzle</string>
+    <string name="des232">Thunderstorm with heavy drizzle</string>
+    <string name="des300">Light intensity drizzle</string>
+    <string name="des301">Drizzle</string>
+    <string name="des302">Heavy intensity drizzle</string>
+    <string name="des310">Light intensity drizzle rain</string>
+    <string name="des311">Drizzle rain</string>
+    <string name="des312">Heavy intensity drizzle rain</string>
+    <string name="des313">Shower rain and drizzle</string>
+    <string name="des314">Heavy shower rain and drizzle</string>
+    <string name="des321">Shower drizzle</string>
+
+    <string name="des500">Light rain</string>
+    <string name="des501">Moderate rain</string>
+    <string name="des502">Heavy intensity rain</string>
+    <string name="des503">Very heavy rain</string>
+    <string name="des504">Extreme rain</string>
+    <string name="des511">Freezing rain</string>
+    <string name="des520">Light intensity shower rain</string>
+    <string name="des521">Shower rain</string>
+    <string name="des522">Heavy intensity shower rain</string>
+    <string name="des531">Ragged shower rain</string>
+
+    <string name="des600">Light snow</string>
+    <string name="des601">Snow</string>
+    <string name="des602">Heavy snow</string>
+    <string name="des611">Sleet</string>
+    <string name="des612">Shower sleet</string>
+    <string name="des615">Light rain and snow</string>
+    <string name="des616">Rain and snow</string>
+    <string name="des620">Light shower snow</string>
+    <string name="des621">Shower snow</string>
+    <string name="des622">Heavy shower snow</string>
+
+    <string name="des701">Mist</string>
+    <string name="des711">Smoke</string>
+    <string name="des721">Haze</string>
+    <string name="des731">Sand, dust whirls</string>
+    <string name="des741">Fog</string>
+    <string name="des751">Sand</string>
+    <string name="des761">Dust</string>
+    <string name="des762">Volcanic ash</string>
+    <string name="des771">Squalls</string>
+    <string name="des781">Tornado</string>
+
+    <string name="des800">Clear</string>
+    <string name="des801">Few clouds</string>
+    <string name="des802">Scattered clouds</string>
+    <string name="des803">Broken clouds</string>
+    <string name="des804">Overcast clouds</string>
+
+    <string name="des900">Tornado</string>
+    <string name="des901">Tropical storm</string>
+    <string name="des902">Hurricane</string>
+    <string name="des903">Cold</string>
+    <string name="des904">Hot</string>
+    <string name="des905">Windy</string>
+    <string name="des906">Hail</string>
+
+    <string name="des951">Calm</string>
+    <string name="des952">Light breeze</string>
+    <string name="des953">Gentle breeze</string>
+    <string name="des954">Moderate breeze</string>
+    <string name="des955">Fresh breeze</string>
+    <string name="des956">Strong breeze</string>
+    <string name="des957">High wind, near gale</string>
+    <string name="des958">Gale</string>
+    <string name="des959">Severe gale</string>
+    <string name="des960">Storm</string>
+    <string name="des961">Violent storm</string>
+    <string name="des962">Hurricane</string>
+    <string name="search_city">Search city</string>
+</resources>

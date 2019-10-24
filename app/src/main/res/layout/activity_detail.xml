@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:weightSum="5"
+        android:orientation="horizontal"
+        android:background="@color/colorBar"
+        android:layout_width="match_parent"
+        android:layout_height="123dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tvCityD"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextViewTitle"/>
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/tvDescriptionD"
+                android:text="@string/clear_sky"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="@dimen/text_size_data"
+                android:textColor="@color/black"
+                android:padding="@dimen/margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivIconD"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/image_size_detail"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvTempD"
+            android:text="@string/celsius"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_temp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="@dimen/padding"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:padding="@dimen/padding"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/detail"
+                style="@style/TextViewData" />
+            <View
+                android:layout_marginBottom="@dimen/padding"
+                android:layout_marginLeft="@dimen/padding"
+                android:layout_marginRight="@dimen/padding"
+                android:background="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <TextView
+                android:id="@+id/tvPressureD"
+                android:text="@string/pressure"
+                style="@style/TextViewData"  />
+            <TextView
+                android:id="@+id/tvHumidityD"
+                android:text="@string/humidity"
+                style="@style/TextViewData"  />
+            <TextView
+                android:id="@+id/tvCloudsD"
+                android:text="@string/cloudiness"
+                style="@style/TextViewData"  />
+            <TextView
+                android:id="@+id/tvWindD"
+                android:lines="3"
+                android:lineSpacingExtra="@dimen/padding"
+                android:text="@string/wind"
+                style="@style/TextViewData"  />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="5"
+        android:background="@color/colorBar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+        <TextView
+            android:id="@+id/tvHourD"
+            android:text="@string/ex_hour"
+            style="@style/TextViewTitle"
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tvDateD"
+            android:padding="@dimen/margin"
+            android:gravity="center|end"
+            android:textSize="@dimen/text_size_data"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_weight="3.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>
